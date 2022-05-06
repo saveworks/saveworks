@@ -1,0 +1,15 @@
+projects:
+  - icon: 🚩
+    link: https://github.com/vidar-team/Cardinal
+    desc: CTF AWD platform
+    tags:
+      - Go
+      - GORM
+      - Vue
+      - Server-Sent Events
+      - CRUD
+
+cves:
+  - no: CVE-2022-0415
+    link: "https://github.com/advisories/GHSA-5gjh-5j4f-cpwv"
+    description: "**Gogs** Remote command execution in file uploading."

@@ -14,11 +14,9 @@
 - 💫 I'm proud of who I am, what I have built, and what I am building.
 
 Some cool gadgets I made:
-- 🚩 [Cardinal](https://github.com/vidar-team/Cardinal) - CTF AWD platform / [★583](https://github.com/vidar-team/Cardinal/stargazers) / `Go` `GORM` `Vue` `Server-Sent Events` `CRUD`
-
+{{PROJECTS}}
 
 🎯 My CVE list:
-- [**CVE-2022-0415**](https://github.com/advisories/GHSA-5gjh-5j4f-cpwv) **Gogs** Remote command execution in file uploading.
-
+{{CVE}}
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=saveworks)
