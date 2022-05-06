@@ -25,23 +25,3 @@ jobs:
       - name: Build & Run
         run: |
           go build . && ./saveworks && rm saveworks
-
-      - name: Import GPG key
-        uses: crazy-max/ghaction-import-gpg@v3
-        with:
-          gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
-          git-user-signingkey: true
-          git-commit-gpgsign: true
-
-      - name: Git Commit
-        run: |
-          git config --local user.email ""
-          git config --local user.name ""
-          git add README.md
-          git commit -S -m "Update README.md" || true
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
